@@ -1,1 +1,9 @@
-
+<!DOCTYPE html>
+<title> Margins and Padding Together </title>
+<html>
+<body>
+<h1> Margin and Padding Properties Together </h1>
+<h2> What do they do together? </h2>
+<p> Padding provides space within an element and margings provide space around it. </p>
+</body>
+</html>
