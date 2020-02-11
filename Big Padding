@@ -4,16 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Big Padding</title>
 </head>
 <style>
-div.padding{
+div.50{
+border: 1px solid black;
+padding: 50px;
+}
+div.100{
 border: 1px solid black;
 padding: 100px;
 }
 </style>
 <body>
- <div class="padding">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati?
+<h1>50px</h1>
+ <div class="50">
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati?
   </div>
+ <h1>100px</h1>
+ <div class="100"> 
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat provident molestias itaque illum mollitia laudantium totam cumque suscipit commodi sequi sed, nesciunt dolor neque quasi tenetur tempore ipsa nihil.
+ </div>
 </body>
 </html>
