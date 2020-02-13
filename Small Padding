@@ -7,14 +7,23 @@
   <title>Document</title>
 </head>
 <style>
-p{
+div.one{
   border: 2px solid black;
-  padding: 20px;
+  padding: 10px;
+}
+div.two{
+  border: 2px solid black;
+  padding: 30px;
 }
 </style>
 <body>
-	<p>
+<h1> Padding: 10px </h1>
+<div class="one">
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum necessitatibus praesentium maxime, sunt eum neque nihil repudiandae aliquid maiores ratione, natus libero laudantium officia a tenetur vel consectetur sit?
-  </p>
+  </div>
+<h2> Padding: 30px </h2>
+<div class="two">
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolores nesciunt consectetur rem deleniti illum nam rerum, beatae, nemo fugit cumque. Ullam, recusandae perspiciatis minima impedit vel eos voluptatum aperiam.
+</div>
 </body>
 </html>
