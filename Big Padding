@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Big Padding</title>
-</head>
 <style>
-div.50{
+div.small{
 border: 1px solid black;
 padding: 50px;
 }
-div.100{
+div.big{
 border: 1px solid black;
 padding: 100px;
 }
 </style>
+  </head>
 <body>
 <h1>50px</h1>
- <div class="50">
- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati?
+ <div class="small">
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et corrupti molestiae ipsam perspiciatis, labore numquam praesentium at enim nulla soluta illum alias iste commodi dolorum maxime vero voluptatem dolore! 
   </div>
  <h1>100px</h1>
- <div class="100"> 
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat provident molestias itaque illum mollitia laudantium totam cumque suscipit commodi sequi sed, nesciunt dolor neque quasi tenetur tempore ipsa nihil.
+ <div class="big"> 
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat provident molestias itaque illum mollitia laudantium totam cumque suscipit commodi sequi sed, nesciunt dolor neque quasi tenetur tempore ipsa nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil adipisci, quo accusantium officia rerum exercitationem magnam alias nemo iusto! Voluptatum est labore eligendi ea veniam, deleniti itaque cumque necessitatibus eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, asperiores vero fugit animi maxime, velit laudantium, esse necessitatibus tenetur earum molestiae qui? Voluptas, officiis sequi? Consequuntur fuga aspernatur veritatis harum.
  </div>
 </body>
 </html>
