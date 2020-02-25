@@ -6,24 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Big Padding</title>
 <style>
-div.small{
+  h1{
+    font-size: 50px;
+  }
+  p{
+   font-size: 30px; 
+  }
+div.two{
 border: 1px solid black;
-padding: 50px;
+padding: 35px 400px
 }
-div.big{
+div.three{
 border: 1px solid black;
-padding: 100px;
+padding: 100px 5px 20px;
+}
+  div.four{
+border: 1px solid black;
+padding: 10px 50px 100px 200px;
 }
 </style>
   </head>
 <body>
-<h1>50px</h1>
- <div class="small">
- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et corrupti molestiae ipsam perspiciatis, labore numquam praesentium at enim nulla soluta illum alias iste commodi dolorum maxime vero voluptatem dolore! 
+  <h1> Multiple Values Padding</h1>
+<p>An element's padding is the space between its content and its border. With multiple values, one can shift the padding of each of the four respective sides.</p>
+  
+<h2>2 values change opposite side as a pair. The first one will change the top and bottom while the second value will change the left and right <br> Padding: 35px 400px</h2>
+ <div class="two">
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in tempore beatae maiores alias. Quasi quaerat, reiciendis saepe iure debitis velit aspernatur dignissimos quam tempore, blanditiis labore, non fuga obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et corrupti molestiae ipsam perspiciatis, labore numquam praesentium at enim nulla soluta illum alias iste commodi dolorum maxime vero voluptatem dolore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad voluptatum reprehenderit omnis dolor ipsum soluta eveniet tempore atque, nesciunt nemo nihil. Autem maiores quasi suscipit delectus aut iusto numquam?
   </div>
- <h1>100px</h1>
- <div class="big"> 
+ <h2>3 values change the top, bottom, and sides. The first one will change the top. The second value will change the right and left. The third value will change the bottom.<br> Padding: 100px 5px 20px</h2>
+ <div class="three"> 
  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat provident molestias itaque illum mollitia laudantium totam cumque suscipit commodi sequi sed, nesciunt dolor neque quasi tenetur tempore ipsa nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil adipisci, quo accusantium officia rerum exercitationem magnam alias nemo iusto! Voluptatum est labore eligendi ea veniam, deleniti itaque cumque necessitatibus eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, asperiores vero fugit animi maxime, velit laudantium, esse necessitatibus tenetur earum molestiae qui? Voluptas, officiis sequi? Consequuntur fuga aspernatur veritatis harum.
  </div>
+  <h2> 4 values change the top, right, bottom, and side separately. The first value changes the top. The second value changes the right. The third value changes the bottom. The fourth value changes the left.<br> Padding: 10px 50px 100px 200px </h2>
+  <div class="four">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ex, deleniti dignissimos hic minima sint itaque pariatur, reiciendis dolore quis assumenda necessitatibus! Eum in porro quod ullam voluptas similique rerum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, adipisci. Fuga, repellendus ex. Doloribus, praesentium quia facilis porro neque mollitia reiciendis obcaecati eum vero commodi? Reiciendis nobis culpa ex voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi asperiores eligendi tenetur magni, reprehenderit, labore corporis excepturi quas facere maiores esse quibusdam cumque ex minus, nisi sit? Necessitatibus, doloremque.
+  </div>
 </body>
 </html>
