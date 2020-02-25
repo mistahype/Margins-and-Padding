@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Big Padding</title>
 <style>
+  body{
+    background-color: lightblue;
+  }
   h1{
     font-size: 50px;
   }
@@ -14,15 +17,18 @@
   }
 div.two{
 border: 1px solid black;
-padding: 35px 400px
+padding: 35px 400px;
+  background-color: white;
 }
 div.three{
 border: 1px solid black;
 padding: 100px 5px 20px;
+  background-color: white;
 }
   div.four{
 border: 1px solid black;
 padding: 10px 50px 100px 200px;
+    background-color: white;
 }
 </style>
   </head>
