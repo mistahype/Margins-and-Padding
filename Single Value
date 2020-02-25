@@ -7,6 +7,9 @@
   <title>Document</title>
 </head>
 <style>
+  body{
+    background-color: #F7EDE2;
+  }
   h1{
     font-size: 50px
   }
@@ -28,18 +31,22 @@
 div.one{
   border: 2px solid black;
   padding: 10px;
+  background-color: #F5CAC3;
 }
 div.two{
   border: 2px solid black;
   padding: 30px;
+  background-color: #F5CAC3;
 }
   div.three{
     border: 2px solid black;
     padding: 60px;
+    background-color: #F5CAC3;
   }
   div.four{
     border: 2px solid black;
     padding: 150px;
+    background-color: #F5CAC3;
   }
 </style>
 <body>
@@ -65,3 +72,4 @@ div.two{
   <br>
 </body>
 </html>
+
