@@ -9,5 +9,14 @@
   <h3> Example </h3>
   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula sapien, mattis id sodales eget, consectetur quis velit. Morbi ultricies odio mi, eget vulputate purus tempor non. Fusce arcu augue, eleifend vel justo a, porta posuere leo. Maecenas scelerisque felis non interdum consectetur. Sed non viverra lacus, nec aliquet dui. Phasellus mollis ante vitae ullamcorper porta. Vivamus a varius enim. Nulla facilisi. Maecenas cursus lacus ac risus commodo, id ultrices diam cursus. Ut condimentum semper enim ut dictum. Aliquam feugiat blandit faucibus. Integer sollicitudin elementum purus, a rhoncus enim varius ut. Suspendisse in cursus augue. Donec sollicitudin bibendum libero et ornare.</p>
  <p> Aenean ut mauris lacinia, cursus eros vel, vehicula arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eros odio, scelerisque et mi id, faucibus eleifend justo. Fusce placerat bibendum ante. Suspendisse finibus maximus ante vitae ultricies. In ac erat sit amet dolor placerat tempor posuere nec ex. Proin molestie cursus mi non rutrum. Nullam aliquet, velit eu consectetur gravida, nibh velit lobortis risus, sit amet dignissim augue justo non odio. Nunc et justo et quam consectetur maximus quis a nibh. Vestibulum vel dignissim nisl, ac rhoncus enim. Aenean lobortis tempus mauris, vel rhoncus neque aliquam eget. Phasellus congue a mauris sit amet bibendum. Etiam gravida ligula non eros euismod, a aliquet purus laoreet. In ex odio, varius ac molestie quis, interdum ultrices eros. Mauris arcu dui, luctus sed neque at, finibus ultricies sem.</p>
+<style>
+body{
+  background-color: silver;
+}
+div{
+  border: solid 3px #000;
+  background-color: white;
+}
+</style>
 </body>
 </html>
