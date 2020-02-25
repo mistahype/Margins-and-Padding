@@ -6,9 +6,67 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
-<body>
-
-<P> TESTING </P>
-
 </body>
 </html>
+<div class="nav">
+  <ul>
+    <li><a href="#" class="nav-link">About</a></li>
+    <li><a href="#" class="nav-link">Uses</a></li>
+    <li><a href="#" class="nav-link">Examples</a></li>
+  </ul>
+</div>
+
+<html>
+<body>
+  
+  
+  <body>
+  
+  <div class="cities">
+  <h2>About</h2>
+    <p>Padding is a spcing element used in the INSIDE of the object.</p>
+   
+    <p>
+    
+    Definition and Usage
+An element's padding is the space between its content and its border.
+    </p>
+<p>The padding property is a shorthand property for:
+    </p>
+    <p>padding-top</p>
+    <p>padding-right</p>
+    <p>padding-bottom</p>
+    <p>padding-left</p>
+  
+<p>Note: Padding creates extra space within an element, while margin creates extra space around an element.
+    </p>
+<p>This property can have from one to four values.
+    </p>
+   
+<P>If the padding property has four values:
+  </p>
+<p>padding:10px 5px 15px 20px;</p>
+<p>top padding is 10px</p>
+<p>right padding is 5px</p>
+<p>bottom padding is 15px</p>
+<p>left padding is 20px</p>
+<p>If the padding property has three values:</p>
+<div>
+<p>padding:10px 5px 15px;</p>
+<p>top padding is 10px</p>
+<p>right and left padding are 5px</p>
+<p>bottom padding is 15px</p>
+<p>If the padding property has two values:</p>
+
+<p>padding:10px 5px;</p>
+<p>top and bottom padding are 10px</p>
+<p>right and left padding are 5px</p>
+<p>If the padding property has one value:</p>
+
+<p>padding:10px;</p>
+<p>all four paddings are 10px</p>
+<p>Note: Negative values are not allowed.</p>
+</p>
+</div>
+</body>
+  </html>
