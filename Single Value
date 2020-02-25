@@ -7,6 +7,24 @@
   <title>Document</title>
 </head>
 <style>
+  h1{
+    font-size: 50px
+  }
+  p{
+    font-size: 25px
+  }
+  h2{
+    font-size: 40px
+  }
+  h3{
+    font-size: 40px
+  }
+  h4{
+    font-size: 40px
+  }
+  h5{
+    font-size: 40px
+  }
 div.one{
   border: 2px solid black;
   padding: 10px;
@@ -15,15 +33,35 @@ div.two{
   border: 2px solid black;
   padding: 30px;
 }
+  div.three{
+    border: 2px solid black;
+    padding: 60px;
+  }
+  div.four{
+    border: 2px solid black;
+    padding: 150px;
+  }
 </style>
 <body>
-<h1> Padding: 10px </h1>
+  <h1> Single Value Padding </h1>
+  <p><u>An element's padding is the space between its content and its border. With one value, the padding of all four sides will shift simultaneously and symmetrically.</u></p>
+<h2> Padding: 10px </h2>
 <div class="one">
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum necessitatibus praesentium maxime, sunt eum neque nihil repudiandae aliquid maiores ratione, natus libero laudantium officia a tenetur vel consectetur sit?
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum necessitatibus praesentium maxime, sunt eum neque nihil repudiandae aliquid maiores ratione, natus libero laudantium officia a tenetur vel consectetur sit?</p>
   </div>
-<h2> Padding: 30px </h2>
+<h3> Padding: 30px </h3>
 <div class="two">
-   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolores nesciunt consectetur rem deleniti illum nam rerum, beatae, nemo fugit cumque. Ullam, recusandae perspiciatis minima impedit vel eos voluptatum aperiam.
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolores nesciunt consectetur rem deleniti illum nam rerum, beatae, nemo fugit cumque. Ullam, recusandae perspiciatis minima impedit vel eos voluptatum aperiam.</p>
 </div>
+  <h4> Padding: 60px </h4>
+  <div class="three">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, enim earum sapiente consequuntur non deleniti. Harum obcaecati temporibus aliquam doloribus esse, vitae laudantium minima nisi pariatur asperiores rem mollitia reiciendis.</p>
+  </div>
+  <h5> Padding: 150px </h5>
+  <div class="four">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, quibusdam? Ipsum nulla ipsa sequi sapiente officia obcaecati, iure sunt commodi similique, vitae impedit maiores atque aliquam fuga quisquam omnis quae.</p>
+  </div>
+  <br>
+  <br>
 </body>
 </html>
