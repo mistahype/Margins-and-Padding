@@ -40,7 +40,7 @@ div.tiy{
   border: solid 3px #000;
   background-color: white;
   margin: 0px;    /*Edit Here*/
-  padding: 0px 0px 0px 0px;    /*Edit Here*/    
+  padding: 0px 0px 0px 0px;    /*Edit Here; Order:Top, Right, Bottom, Left*/    
 }
 </style>
 </body>
