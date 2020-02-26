@@ -39,7 +39,7 @@ div.b{
 div.tiy{
   border: solid 3px #000;
   background-color: white;
-  margin: 0px 0px 0px 0px;    /*Edit Here*/
+  margin: 0px;    /*Edit Here*/
   padding: 0px 0px 0px 0px;    /*Edit Here*/    
 }
 </style>
