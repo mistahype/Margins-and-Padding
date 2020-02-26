@@ -23,50 +23,96 @@
   <body>
   
   <div class="cities">
-  <h2>About</h2>
-    <p>Padding is a spcing element used in the INSIDE of the object.</p>
-   
-    <p>
-    
-    Definition and Usage
-An element's padding is the space between its content and its border.
-    </p>
-<p>The padding property is a shorthand property for:
-    </p>
-    <p>padding-top</p>
-    <p>padding-right</p>
-    <p>padding-bottom</p>
-    <p>padding-left</p>
-  
-<p>Note: Padding creates extra space within an element, while margin creates extra space around an element.
-    </p>
-<p>This property can have from one to four values.
-    </p>
-   
-<P>If the padding property has four values:
-  </p>
-<p>padding:10px 5px 15px 20px;</p>
-<p>top padding is 10px</p>
-<p>right padding is 5px</p>
-<p>bottom padding is 15px</p>
-<p>left padding is 20px</p>
-<p>If the padding property has three values:</p>
-<div>
-<p>padding:10px 5px 15px;</p>
-<p>top padding is 10px</p>
-<p>right and left padding are 5px</p>
-<p>bottom padding is 15px</p>
-<p>If the padding property has two values:</p>
+  <h1>About</h1>
+    <h2>Margin - Shorthand Property</h2>
+    <h4>To shorten the code, it is possible to specify all the margin properties in one property.</h4>
 
-<p>padding:10px 5px;</p>
-<p>top and bottom padding are 10px</p>
-<p>right and left padding are 5px</p>
-<p>If the padding property has one value:</p>
+    <h4>The margin property is a shorthand property for the following individual margin properties:</h4>
 
-<p>padding:10px;</p>
-<p>all four paddings are 10px</p>
-<p>Note: Negative values are not allowed.</p>
-</p>
+<p>margin-top
+<p>margin-right
+<p>margin-bottom
+<p>margin-left
+<p>So, here is how it works:
+
+<h4>If the margin property has four values:</h4>
+
+<p>margin: 25px 50px 75px 100px;
+<p>top margin is 25px
+<p>right margin is 50px
+<p>bottom margin is 75px
+<p>left margin is 100px
+<p>Example
+<h4>Use the margin shorthand property with four values:</h4>
+
+<p>p { margin: 25px 50px 75px 100px; }
+<h4>If the margin property has three values:</h4>
+
+<p>margin: 25px 50px 75px;
+<p>top margin is 25px
+<p>right and left margins are 50px
+<p>bottom margin is 75px
+<p>Example
+  <h4>Use the margin shorthand property with three values: </h4>
+
+<p>p { margin: 25px 50px 75px;}
+<h4>If the margin property has two values:</h4>
+
+<p>margin: 25px 50px;
+<p>top and bottom margins are 25px
+<p>right and left margins are 50px
+<p>Example
+<h4>Use the margin shorthand property with two values: </h4>
+
+<p>p { margin: 25px 50px; }
+<h4>If the margin property has one value:</h4>
+
+<p>margin: 25px;
+<p>all four margins are 25px
+<p>Example
+<h4>Use the margin shorthand property with one value: </h4>
+
+<p>p { margin: 25px; }
+<p>The auto Value
+<h4>You can set the margin property to auto to horizontally center the element within its container.</h4>
+
+<h4>The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.</h4>
+
+<p>Example
+<p>Use margin: auto:
+
+<p>div { width: 300px;
+ <p>margin: auto;
+ <p> border: 1px solid red; }
+<p>The inherit Value
+<h4>This example lets the left margin of the p class="ex1" element be inherited from the parent element (div):</h4>
+
+<p>Example
+  <h4>Use of the inherit value:</h4>
+
+<p>div { border: 1px solid red;
+ <p> margin-left: 100px; }
+
+<p>p.ex1 { margin-left: inherit; }
+<p>Margin Collapse
+<h4>Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.</h4>
+
+<h4>This does not happen on left and right margins! Only top and bottom margins!</h4>
+
+<h4>Look at the following example:</h4>
+
+<p>Example
+<p>Demonstration of margin collapse:
+
+<p>h1 { margin: 0 0 50px 0; }
+
+<p>h2 { margin: 20px 0 0 0; }
+<h4>In the example above, the h1 element has a bottom margin of 50px and the h2 element has a top margin set to 20px.</h4>
+
+<h4>Common sense would seem to suggest that the vertical margin between the h1 and the h2 would be a total of 70px (50px + 20px). But due to margin collapse, the actual margin ends up being 50px.</h4>
+
+
 </div>
 </body>
   </html>
+ 
